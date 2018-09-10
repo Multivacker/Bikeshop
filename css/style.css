@@ -1,0 +1,164 @@
+/* Reset */
+
+	html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+		margin: 0;
+		padding: 0;
+		border: 0;
+		font-size: 100%;
+		font: inherit;
+		vertical-align: baseline;
+	}
+
+body {
+    font-family: 'Hind', sans-serif;
+}
+a {
+    text-decoration: underline;
+    color: white;
+    font-family: 'Hind', sans-serif;
+    
+}
+a:hover{
+    text-decoration: none;
+}
+ul li {
+    list-style: none;
+}
+.wallpaper {  
+    position: relative;
+    color: white;
+    background-color: magenta;
+}
+.wallpaper button {
+    border-radius: 5px; 
+}
+.logo {
+    margin-left: 25%;
+}
+.headernav {
+    margin-right: 25%; 
+    margin-top: -50px;
+    text-align: right;
+}
+.headernav a {
+    text-decoration: none;
+}
+.headernav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+.headernav li {
+    float: right;  
+    margin-left: 15px;
+    font-weight: bold;
+    font-size: 0.8em;
+}
+.headertop {
+    position: relative;
+    top:-250px;
+}
+.headermiddle {
+    position: relative;
+    margin-top: -240px;
+    margin-left: 25%;
+    font-size: 0.7em;
+    color: grey; 
+    font-weight: bold;
+}
+.headermiddle a,a:hover{
+    color: lightgray; 
+}
+.headerbottom {
+    position: relative;
+    margin-left: 25%;
+    width: 100%;
+    border-style: dashed;
+    border-color: magenta;
+
+}
+.headerbottom h1{
+    font-size: 1.5em;
+    color: white;
+}
+.bikeshoplogo {
+    float: left;
+    margin-top: -135px;
+    background-color: greenyellow;
+    border-radius: 5px;
+    width: 130px;
+    height: 130px;
+
+}
+.bikeshoplogo img {
+    margin: 5px;
+    float: left;
+}
+.container {
+    float: left;
+}
+.paratitle {
+    margin-top: -180px;
+    margin-left: 140px;
+    float: left
+}
+.paratitle h1 {
+    display:inline;
+}
+.paratitle i {
+    color: white;
+    font-size: 1.8em;
+    margin: 8px;
+    display:inline;
+}
+.paratitle i:hover {
+    color: magenta;
+    margin: 8px;
+}
+.score {
+    margin-top: -122px;
+    margin-left: 140px;
+    font-size: 0.8em;
+}
+.score button {
+    background-color: limegreen;
+    color: white;
+    width: 60px;
+    height: 30px;
+}
+#scorebutton {
+    background-color: yellowgreen;
+    color: white;
+    width: 60px;
+    height: 30px;
+}
+.average {    
+    margin-left: 140px;
+    margin-top: -92px;
+    border-left: solid 2px white;
+    line-height: 0.5;
+    font-size: 0.8em;
+    float:left;
+    color: lightgray;
+    font-weight: bold;
+    padding: 3px;
+}
+.average p {
+    text-align: left;
+}
+.average h6 {
+    color: white;
+    font-weight: normal;
+    
+}
+.search {
+    position: static;
+    background-color: white;
+    color: grey;
+    padding: 16px;
+    font-size: 16px;
+    border: 1px solid grey;
+    cursor: pointer;
+    border-radius: 12px;
+}
