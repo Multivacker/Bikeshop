@@ -24,6 +24,10 @@ a:hover{
 ul li {
     list-style: none;
 }
+
+
+/*Header Styles*/
+
 .wallpaper {  
     position: relative;
     color: white;
@@ -134,31 +138,71 @@ ul li {
     height: 30px;
 }
 .average {    
-    margin-left: 140px;
-    margin-top: -92px;
-    border-left: solid 2px white;
-    line-height: 0.5;
+    margin-left: 135px;
+    margin-top: -75px;
     font-size: 0.8em;
     float:left;
     color: lightgray;
     font-weight: bold;
     padding: 3px;
 }
-.average p {
-    text-align: left;
+.average ul {
+    margin-left: -15px;
+    overflow: hidden;
+}
+.average li {
+    float: left;  
+    font-weight: bold;
+    font-size: 0.8em;
+    border-left: solid 2px grey;
+    line-height: 0.5;
+    margin-left: 15px;
 }
 .average h6 {
     color: white;
-    font-weight: normal;
-    
+    font-weight: normal;  
+    margin: 5px;
 }
-.search {
-    position: static;
-    background-color: white;
+.average p {
+    margin: 5px;
     color: grey;
-    padding: 16px;
-    font-size: 16px;
-    border: 1px solid grey;
-    cursor: pointer;
-    border-radius: 12px;
+}
+
+#mediosdepagobtn button{
+    float: left;
+    background-color: transparent;
+    color: white;
+    font-size: 12px;
+    border: 1px solid white;
+    border-radius: 4px;
+    height: 35px;
+    width: 150px;
+}
+
+.novedades {
+    margin-left: 730px;
+    font-size: 0.7em;
+    margin-top: 21px;
+}
+
+/*Header Styles*/
+
+.main {
+    background-color: magenta;
+    margin-left: 25%;
+    width: 35%
+}
+.carrito {
+    background-color: aqua;
+    margin-right: 25%;
+    width: 15%;
+    float: right;
+}
+
+/*Footer Styles*/
+
+.footer {
+    background-color: greenyellow;
+    width: 100%;
+    height: 300px;
 }

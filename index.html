@@ -15,14 +15,13 @@
     <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
     <!--Styles-->
     <link rel="stylesheet" href="css/style.css">
-    <!--Style W3 Dropdown-->
-    <link rel="stylesheet" href="css/w3dropdown.css">
     <!--Style Bootstrap 4-->
     <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
 </head>
 <body>
   <!--Header starts-->
    <header>
+     <!--Header Top starts-->
       <div class="wallpaper">
        <img src="img/allbikeshopwallpaper.jpg" alt="all bikeshops wallpaper">
        <div class="headertop">
@@ -34,11 +33,11 @@
            <li><a href="#">Sugerir bikeshop</a></li>     
        </ul>
        </div>
-       
+       <!--Header Middle starts-->
        <div class="headermiddle">
            <p><i href="#" class="fas fa-home"></i> &gt <a href="#">Bikeshops en Buenos Aires</a> &gt <a href="#">Bikeshops con Delivery para Bulnes 1660</a> &gt Bikeshop: GaryBaker Bikeshop SRL</p>
        </div>
-       
+       <!--Header Bottom starts-->
        <div class="headerbottom">
           <div class="bikeshoplogo">
            <img src="img/bikeshoplogo.png" alt="garybaker logo">
@@ -53,33 +52,40 @@
                &nbsp;&nbsp;<button><i class="fas fa-star"></i>&nbsp;4.0</button>&nbsp;&nbsp;productos
                &nbsp;&nbsp;<button><i class="fas fa-star"></i>&nbsp;4.0</button>&nbsp;&nbsp;servicio
            </div>
-       <div class="average">
-          <p><h6>1,7 Km</h6>distancia</p>
-          <p><h6>1,7 Km</h6>tiempo de entrega</p>
-          <p><h6>$ 20</h6>costo de envío</p>
-          <p><h6>$ 300</h6>pedido mínimo</p>
-          <button>Ver medios de pago</button>
-          </div>
-          <!--<p>Llegó la indumentaria de EUBykes!!! <br>
-          Nuevos...<a href="#">[+]</a></p>-->
+           
+         <div class="average">
+          <ul>
+           <li><h6>1,7 Km</h6><p>distancia</p></li>
+           <li><h6>45-60 mins</h6><p>tiempo de entrega</p></li>
+           <li><h6>$ 20</h6><p>costo de envío</p></li>
+           <li><h6>$ 300</h6><p>pedido mínimo</p></li> 
+           <li id="mediosdepagobtn"><button>Ver medios de pago</button></li>  
+          </ul>
+         </div> 
+         
+         <div class="novedades">
+          <p>Llegó la indumentaria de EUBykes!!! <br>
+          Nuevos...<a href="#">[+]</a></p>
+         </div>
+          
          </div> 
         </div>
        </div>
    </header>
    
   <!--Main starts-->
-  <!--<div class="navshop">
+  <section class= "main">
+    <div>
       <ul>
           <li><a href="#menu">Menú</a></li>
           <li><a href="#info">Información</a></li>
           <li><a href="#opinions">Opiniones</a></li>
       </ul>
   </div> 
-
-  <section class= "menu">
- <div class="dropdown">
-  <button onclick="myFunction()" class="dropbtn">-Ir a la Sección- <i class="fas fa-arrow-circle-down"></i></button>
-  <div id="myDropdown" class="dropdown-content">
+  
+ <div>
+  <button> -Ir a la Sección- <i class="fas fa-arrow-circle-down"></i></button>
+  <div>
    <ul>
        <li>Edad
        <ul>
@@ -374,12 +380,15 @@
       
   </section>
   
-  <aside>
+  <section>
+     <div  class= "carrito">
+         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit ex, illum quam ratione maiores aliquam ipsam sed asperiores sapiente repudiandae ipsa soluta quos, nesciunt, dignissimos iusto. Asperiores sint vitae quaerat?</p>
+     </div>
       
-  </aside>-->
+  </section>
   
   <!--Footer starts-->
-   <!--<footer>
+   <section class="footer">
     <div class="footertop">
       <ul>
           <li><a href="#"></a>Nosotros</li>
@@ -427,7 +436,7 @@
         <img src="img/afip.jpg" alt="afip">
        </div>
       </div>    
-   </footer>-->
+   </section>
    
    
 <!--Bootstrap 4 -->
