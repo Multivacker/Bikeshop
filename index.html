@@ -13,6 +13,8 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+    <!--JQuery-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
     <!--Styles-->
     <link rel="stylesheet" href="css/style.css">
     <!--Style Bootstrap 4-->
@@ -72,38 +74,46 @@
         </div>
        </div>
    </header>
+   <!--Shop Cart starts-->
+    <section>
+     <div  class= "carrito">
+        <div><h4>Mi pedido</h4>
+         <p><img src="img/plato.svg" alt=""></p>
+         <div><h6>Ganas de Bicicletear?<p id="empty">Tu carrito está vacío</p></h6>
+         
+         <p><a href="#">Continuar</a></p></div>
+         </div>
+     </div>
+      
+  </section>
    
   <!--Main starts-->
   <section class= "main">
-    <div>
+   <!--Menu Main starts-->
+    <div class="navmain">
       <ul>
           <li><a href="#menu">Menú</a></li>
           <li><a href="#info">Información</a></li>
-          <li><a href="#opinions">Opiniones</a></li>
+          <li><a href="#opinions">Opiniones (15668)</a></li>
       </ul>
   </div> 
+
+<div class="dropdownsearch">
+ <div class="dropdown">
+  <button class="dropbtn"> -Ir a la Sección- <i class="fas fa-arrow-circle-down"></i></button>
   
- <div>
-  <button> -Ir a la Sección- <i class="fas fa-arrow-circle-down"></i></button>
-  <div>
-   <ul>
-       <li>Edad
+   <ul class="dropdown-content">
+       <li><b>Edad</b>
        <ul>
            <li><a href="#">Adulto</a></li>
            <li><a href="#">Niño</a></li>
        </ul></li>
-   </ul>
-   
-   <ul>
-       <li>Marca
+       <li><b>Marca</b>
        <ul>
            <li><a href="#">???</a></li>
            <li><a href="#">???</a></li>
        </ul></li>
-   </ul>
-   
-   <ul>
-       <li>Modelos
+       <li><b>Modelos</b>
        <ul>
            <li><a href="#">Mountain Bike</a></li>
            <li><a href="#">Playeras</a></li>
@@ -113,10 +123,7 @@
            <li><a href="#">Plegable</a></li>
            <li><a href="#">Fixie</a></li>
        </ul></li>
-   </ul>
-   
-   <ul>
-       <li>Rodado
+   <li><b>Rodado</b>
        <ul>
            <li><a href="#">Rodado 29</a></li>
            <li><a href="#">Rodado 28</a></li>
@@ -129,36 +136,34 @@
            <li><a href="#">Rodado 14</a></li>
            <li><a href="#">Rodado 12</a></li>  
        </ul></li>
-   </ul>
-   
-   <ul>
-       <li>Vestimenta
+        <li><b>Vestimenta</b>
        <ul>
            <li><a href="#">Gorros</a></li>
            <li><a href="#">Bermudas</a></li>
        </ul></li>
-   </ul>
-   
-   <ul>
-       <li>Accesorios
+       <li><b>Accesorios</b>
        <ul>
            <li><a href="#">Cascos</a></li>
            <li><a href="#">Infladores</a></li>
        </ul></li>
-   </ul>
-    
-  </div>
 </div>
+
     
-    <div>
+    <div class="search">
         <form  action="action_page.php">
-          <input class="search" type="text" placeholder="Search.." name="search">
+          <input class="search" type="text" placeholder=" Buscar en el menú" name="search">
               <a href="#"><i class="fas fa-search"></i></a>
-</form>
+                </form>
+    </div>
+    </div>
+    
+    <div class="recomendation">
+        <h4>Bicis Recomendadas</h4>
+        <p>Fotos reales<i class="far fa-thumbs-up"></i></p>
     </div>
 
     
-    <div>
+    <div class="slider">
       <ul class="sliderbx1">
           <li class="slideprods"><a href="#"><img src="img/photoprod1.png" alt="photo prod 1"><h4>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic, ipsa.</h4><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam quo aperiam cupiditate facere, ipsum cum ut ad ducimus dolorum itaque, labore facilis numquam fugiat mollitia rem aut molestias doloremque voluptatum!</p><i class="fas fa-plus-circle"></i></a>
           <a href=""><img src="img/photoprod2.png" alt="photo prod 2"><h4>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic, ipsa.</h4><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam quo aperiam cupiditate facere, ipsum cum ut ad ducimus dolorum itaque, labore facilis numquam fugiat mollitia rem aut molestias doloremque voluptatum!</p><i class="fas fa-plus-circle"></i></a>
@@ -372,22 +377,19 @@
     
   </section>
   
-  <section class= "info">
+  
+  <!--<section class= "info">
       
   </section>
   
   <section class= "opinions">
       
-  </section>
+  </section>-->
   
-  <section>
-     <div  class= "carrito">
-         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit ex, illum quam ratione maiores aliquam ipsam sed asperiores sapiente repudiandae ipsa soluta quos, nesciunt, dignissimos iusto. Asperiores sint vitae quaerat?</p>
-     </div>
-      
-  </section>
+
   
   <!--Footer starts-->
+  <footer>
    <section class="footer">
     <div class="footertop">
       <ul>
@@ -437,14 +439,12 @@
        </div>
       </div>    
    </section>
-   
+   </footer>
    
 <!--Bootstrap 4 -->
 <script src="js/jquery-3.3.1.slim.min"></script> 
 <script src="js/popper.min"></script> 
 <script src="js/bootstrap.min.js"></script> 
-<!--W3 dropdown-->
-<script src="js/dropdown.js"></script>  
 <!--BxSlider -->
 <script>
     $(document).ready(function(){
@@ -469,7 +469,19 @@
         $('.sliderbx7').bxSlider({
             mode: 'fade'
         })
+        $('.sliderbx8').bxSlider({
+            mode: 'fade'
+        })
+        $('.sliderbx9').bxSlider({
+            mode: 'fade'
+        })
     })
 </script>
+<!--Menu main button activated -->
+<!--<script>$(".ul").find("li").click(function(){
+  $(".ul li").removeClass('estas')
+  $(this).addClass('estas')
+})
+</script>-->
 </body>
 </html>

@@ -14,9 +14,7 @@ body {
 }
 a {
     text-decoration: underline;
-    color: white;
-    font-family: 'Hind', sans-serif;
-    
+    font-family: 'Hind', sans-serif;  
 }
 a:hover{
     text-decoration: none;
@@ -26,12 +24,12 @@ ul li {
 }
 
 
+
 /*Header Styles*/
 
 .wallpaper {  
     position: relative;
     color: white;
-    background-color: magenta;
 }
 .wallpaper button {
     border-radius: 5px; 
@@ -84,7 +82,6 @@ ul li {
 }
 .headerbottom h1{
     font-size: 1.5em;
-    color: white;
 }
 .bikeshoplogo {
     float: left;
@@ -105,19 +102,18 @@ ul li {
 .paratitle {
     margin-top: -180px;
     margin-left: 140px;
-    float: left
+    float: left;
 }
 .paratitle h1 {
     display:inline;
 }
 .paratitle i {
-    color: white;
     font-size: 1.8em;
     margin: 8px;
     display:inline;
 }
 .paratitle i:hover {
-    color: magenta;
+    color: red;
     margin: 8px;
 }
 .score {
@@ -127,15 +123,15 @@ ul li {
 }
 .score button {
     background-color: limegreen;
-    color: white;
     width: 60px;
     height: 30px;
+    color: white;
 }
 #scorebutton {
     background-color: yellowgreen;
-    color: white;
     width: 60px;
     height: 30px;
+    color: white;
 }
 .average {    
     margin-left: 135px;
@@ -173,6 +169,7 @@ ul li {
     background-color: transparent;
     color: white;
     font-size: 12px;
+    border-left: transparent;
     border: 1px solid white;
     border-radius: 4px;
     height: 35px;
@@ -185,23 +182,214 @@ ul li {
     margin-top: 21px;
 }
 
-/*Header Styles*/
 
-.main {
-    background-color: magenta;
-    margin-left: 25%;
-    width: 35%
-}
+/*Shop Cart Styles*/
 .carrito {
-    background-color: aqua;
     margin-right: 25%;
     width: 15%;
+    height: 300px;
+    float: right;
+    border: 1px dashed darkgrey;
+    border-radius: 3px;
+}
+.carrito img {
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 5px;
+    height: auto;
+}
+.carrito h4 {
+    color: #3a3a3a;
+    margin: 12px;
+    font-size: 1.3em;
+}
+.carrito h6 {
+    text-align: center;
+}
+.carrito p {
+    text-align: center;
+}
+.carrito a {
+    color: lightgray;
+    font-weight: bold;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+#empty {
+    font-size: 12px;
+}
+
+/*Main Styles*/
+
+.main {
+    width: 35%; 
+    margin-left: 25%;
+    margin-top: 200px;
+}
+.navmain {
+    float: left;
+    width: 95%;  
+    border-bottom: 1px solid darkgrey;
+}
+.navmain ul {
+    list-style-type: none;
+    width: 100%;
+}
+.navmain li {
+    float: left;  
+    margin-left: 15px;
+    font-size: 0.8em;
+}
+.navmain a {
+    color: grey;
+    font-size: 1.2em;
+    border-bottom: 3px solid red;
+    margin-right: 30px;
+}
+.navmain a:hover {
+    text-decoration: none;
+    color: black;
+    font-size: 1.2em;
+}
+
+.dropdownsearch {
+    width: 100%;
+}
+
+/*DropDown Style*/
+.dropbtn {
+    background-color: white;
+    color: black;
+    padding: 3px;
+    font-size: 12px;
+    border-bottom: 1px solid darkgrey;
+    margin-bottom: 8px;
+    margin-top: 15px;
+    width: 270px;
+    height: 30px;
+    border-radius: 4px;
+}
+.dropbtn i {
+    color: darkgrey;
+}
+.dropdown {
+    position: absolute;
+    display: inline-block;
+    float: left;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    color: black;
+    font-size: 12px;
+    min-width: 270px;
+    z-index: 1;
+}
+.dropdown-content a {
+    color: black;
+    padding: 1px 1px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown-content a:hover {background-color: #ddd;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {border-bottom: 1px solid black;}
+.search {
+    float: right;
+    width: 270px;
+    height: 30px;
+    border-radius: 4px;
+    margin-top: 8px;
+    margin-right: 20px;
+    font-size: 12px;
+}
+.search i {
+    color: darkgrey;
+    float: right;
+    margin-right: 30px;
+    margin-top: -20px;
+}
+.nav {
+    float: left;
+    margin-top: 15px;
+}
+
+.recomendation {
+    float: left;
+    margin-top: 60px;
+    width: 95%;
+    border-bottom: 1px solid darkgrey;
+}
+.recomendation h4 {
+    display:inline;
+    color: #3a3a3a;
+    font-size: 1.3em;
+}
+.recomendation p {
     float: right;
 }
+.recomendation i {
+    color: red;
+    margin: 5px;
+}
+
+
+/*Slider Style*/
+.slider {
+    float: left;
+    width: 100%;
+}
+.slider img {
+    width: 200px;
+}
+.slider a {
+    color: darkgray;
+}
+.slider a:hover {
+    color: black;
+    text-decoration: none;
+}
+.sliderprods {
+    width: 100%;
+}
+.sliderbx1 h4 {
+    color: black;
+    width: 200px;
+}
+.sliderbx1 p {
+    width: 200px;
+    text-align: justify;
+}
+.sliderbx1 i {
+    color: red;
+}
+/*Combo Styles*/
+.combo {
+    width: 100%;
+    float: left;  
+}
+.listprod {
+    float: left;
+    text-align: justify;
+}
+.listprod i {
+    color: red;
+    margin: 5px;
+}
+
 
 /*Footer Styles*/
 
 .footer {
+    float: left;
     background-color: greenyellow;
     width: 100%;
     height: 300px;
